@@ -22,8 +22,30 @@ While AIOps helps teams automate their tech lifecycles, MLOps helps teams choose
 
 When applied to the right problems, AIOps and MLOps can both help teams hit their production goals.
 
+## Interpretable Machine Learning for Linear Regression
+
+### Interpretable Machine Learning
+
+The sort of decisions and predictions being made by these machine learning-enabled systems are becoming much more profound, and in many cases, critical to life, death, and personal wellness. The need to trust these AI-based systems is paramount.
+
+Interpretation of a machine learning model is the process wherein we try to understand the predictions of a machine learning model.
+
+### Linear Regression
+
+Linear models can be used to model the dependence of a regression target y on some features x. The learned relationships are linear and can be written for a single instance i as follows:
+
+<p> y = &beta;<sub>0</sub> + &beta;<sub>1</sub>x<sub>1</sub> + ... + &epsilon; </p>
+
+The predicted outcome of an instance is a weighted sum of its features. The betas ( &beta;<sub>j</sub> ) represent the learned feature weights or coefficients.
+
+### Interpretation
+
+In linear regression we can use the weights (or coefficients) to find out which features are the most important, these are the features with the highest weight. If, for one record, we add one to a feature value while keeping the others the same the prediction will increase by the weight of that feature.
+
 ### Sources
 - [What is AIOps?](https://www.moogsoft.com/resources/aiops/guide/everything-aiops/#five)
 - [AIOps](https://www.ibm.com/cloud/learn/aiops)
 - [MLOps vs AIOps](https://thechief.io/c/editorial/mlops-vs-aiops/)
 - [AIOps vs. MLOps: What's the difference?](https://opensource.com/article/21/2/aiops-vs-mlops)
+- [Interpretable Machine Learning Models](https://towardsdatascience.com/interpretable-machine-learning-models-aef0c7be3fd)
+- < https://christophm.github.io/interpretable-ml-book/limo.html >

@@ -1,5 +1,6 @@
 # Part 1
 
+
 ## AIOps
 
 AIOps is the application of artificial intelligence to IT operations. It has become essential for monitoring and managing modern IT environments that are hybrid, dynamic, distributed and componentized.
@@ -14,6 +15,7 @@ Specifically, AIOps uses big data, analytics, and machine learning capabilities 
 
 It bridges the gap between an increasingly diverse, dynamic, and difficult-to-monitor IT landscape, on the one hand, and user expectations for little or no interruption in application performance and availability, on the other. Most experts consider AIOps to be the future of IT operations management.
 
+
 ## MLOps v/s AIOps
 
 MLOps and AIOPs both share the willingness to make our systems better and more efficient, the two fields overlap but do not meet under the same umbrella, neither in terms of the approach nor in terms of the raison d'être.
@@ -22,13 +24,17 @@ While AIOps helps teams automate their tech lifecycles, MLOps helps teams choose
 
 When applied to the right problems, AIOps and MLOps can both help teams hit their production goals.
 
+
+
 ## Interpretable Machine Learning for Linear Regression
+
 
 ### Interpretable Machine Learning
 
 The sort of decisions and predictions being made by these machine learning-enabled systems are becoming much more profound, and in many cases, critical to life, death, and personal wellness. The need to trust these AI-based systems is paramount.
 
 Interpretation of a machine learning model is the process wherein we try to understand the predictions of a machine learning model.
+
 
 ### Linear Regression
 
@@ -38,9 +44,11 @@ Linear models can be used to model the dependence of a regression target y on so
 
 The predicted outcome of an instance is a weighted sum of its features. The betas ( &beta;<sub>j</sub> ) represent the learned feature weights or coefficients.
 
+
 ### Interpretation
 
 In linear regression we can use the weights (or coefficients) to find out which features are the most important, these are the features with the highest weight. If, for one record, we add one to a feature value while keeping the others the same the prediction will increase by the weight of that feature.
+
 
 ### Sources
 - [What is AIOps?](https://www.moogsoft.com/resources/aiops/guide/everything-aiops/#five)
@@ -48,4 +56,4 @@ In linear regression we can use the weights (or coefficients) to find out which 
 - [MLOps vs AIOps](https://thechief.io/c/editorial/mlops-vs-aiops/)
 - [AIOps vs. MLOps: What's the difference?](https://opensource.com/article/21/2/aiops-vs-mlops)
 - [Interpretable Machine Learning Models](https://towardsdatascience.com/interpretable-machine-learning-models-aef0c7be3fd)
-- < https://christophm.github.io/interpretable-ml-book/limo.html >
+- https://christophm.github.io/interpretable-ml-book/limo.html

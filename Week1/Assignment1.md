@@ -49,6 +49,7 @@ The predicted outcome of an instance is a weighted sum of its features. The beta
 
 In linear regression we can use the weights (or coefficients) to find out which features are the most important, these are the features with the highest weight. If, for one record, we add one to a feature value while keeping the others the same the prediction will increase by the weight of that feature.
 
+## AWS Console
 
 ### Sources
 - [What is AIOps?](https://www.moogsoft.com/resources/aiops/guide/everything-aiops/#five)

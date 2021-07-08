@@ -51,6 +51,8 @@ In linear regression we can use the weights (or coefficients) to find out which 
 
 ## AWS Console
 
+![aws console](https://github.com/aniketp02/Fundamentals_of_MLOps_20D070011/blob/main/Week1/amazon-console.JPG)
+
 ### Sources
 - [What is AIOps?](https://www.moogsoft.com/resources/aiops/guide/everything-aiops/#five)
 - [AIOps](https://www.ibm.com/cloud/learn/aiops)

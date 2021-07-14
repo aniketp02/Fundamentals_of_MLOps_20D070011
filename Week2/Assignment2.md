@@ -19,9 +19,9 @@
 <pre>
 <code>
 git add data/creditcard.csv.dvc data/.gitignore
+
 git commit -m "raw data added"
-</code>
-</pre>
+</code></pre>
 
 - Setting the S3 bucket as default for DVC repo
 <pre>
@@ -29,9 +29,9 @@ git commit -m "raw data added"
 dvc remote add -d storage s3://bucket_name/datastore
 
 git add .dvc/config
+
 git commit -m "configure remote storage"
-</code>
-</pre>
+</code></pre>
 
 - Uploading the dataset to datastore folder
 <pre><code>dvc push</code></pre>
@@ -40,10 +40,15 @@ git commit -m "configure remote storage"
 
 ### For Decision Tree Classifier
 
-- #### Accuracy: 99.9104 %
-- #### Weighted F1 Score: 99.9102 %
+- ##### Accuracy: 99.9104 %
+- ##### Weighted F1 Score: 99.9102 %
 
 ### For Random Forest Classifier
 
-- #### Accuracy: 99.9315 %
-- #### Weighted F1 Score: 99.9274 %
+- ##### Accuracy: 99.9315 %
+- ##### Weighted F1 Score: 99.9274 %
+
+
+## Screenshot of S3 Bucket
+
+![S3 bucket](https://github.com/aniketp02/Fundamentals_of_MLOps_20D070011/blob/main/Week2/mlops_assignment.JPG)

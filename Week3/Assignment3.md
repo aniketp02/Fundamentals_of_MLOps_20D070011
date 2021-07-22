@@ -1,6 +1,6 @@
 ## GitHub repository:
 
-[MLOps_Assignment](https://github.com/aniketp02/MLOps_Assignment/tree/main)
+[MLOps_Assignment](https://github.com/aniketp02/MLOps_Assignment/tree/pycaret_expt1)
 
 ## List of preprocessing and feature engineering techniques
 - Normalization
